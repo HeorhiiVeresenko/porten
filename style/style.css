@@ -1,0 +1,212 @@
+*{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+.conteiner{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.top-section{
+    background: black;
+    padding: 14px 15px;
+}
+.top-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #969696;
+}
+.main-info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.top-line a, .top-line button{
+    font-size: 12px;
+    color: #969696;
+    background: none;
+}
+.sign-in{
+    display: flex;
+    gap: 15px;
+}
+.header-section{
+    background: #0F0F0F;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    padding: 30px 7px;
+}
+.menu-item.active{
+    background: #1F1F1F;
+}
+.menu-item.active a{
+    color: #FFFFFF;
+}
+.menu-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969696;
+}
+.img-menu{
+    gap: 40px;
+    margin-left: 20px;
+}
+.porten-kyiv{
+    width: 320px;
+    height: 320px;
+    border: 6px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-h1{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+.line{
+    height: 3px;
+    width: 200px;
+    background: #FFFFFF;
+}
+.Kyiv{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.47px;
+    color: #FFFFFF;
+}
+.main-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 730px;
+    margin-bottom: 154px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.main{
+    background: url(../img/Rectangle\ 3.png) no-repeat;
+    height: 810px;
+}
+.flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.season21{
+    background: black;
+    color: #FFFFFF;
+    height: 730px;
+    width: 1040px;
+}
+.season2021{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.99px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    padding-top: 93px;
+}
+.line2{
+    width: 120px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.clock-background{
+    width: 260px;
+    height: 325px;
+    background: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-name{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.99px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 25px;
+}
+.clock-price{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.33px;
+    color: #D0D0D0;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 10px;
+}
+.goods{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.new-collection{
+    background: url(../img/Rectangle\ 8.png) no-repeat;
+    width: 880px;
+    height: 730px;
+}
+.new-collection-name{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.99px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    padding-top: 484px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.line3{
+    width: 120px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 43%;
+}
+.catalog{
+    width: 138px;
+    height: 47px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.29px;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    background: none;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 30px;
+}
+.midle-section{
+    display: flex;
+}
