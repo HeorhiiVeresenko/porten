@@ -124,8 +124,7 @@ header{
 .season21{
     background: black;
     color: #FFFFFF;
-    height: 730px;
-    width: 1040px;
+    flex-basis: 1040px;
 }
 .season2021{
     font-size: 36px;
@@ -139,8 +138,7 @@ header{
     width: 120px;
     height: 1px;
     background: #FFFFFF;
-    margin-left: 45%;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .clock-background{
     width: 260px;
@@ -172,8 +170,7 @@ header{
 }
 .new-collection{
     background: url(../img/Rectangle\ 8.png) no-repeat;
-    width: 880px;
-    height: 730px;
+    flex-basis: 880px;
 }
 .new-collection-name{
     font-size: 36px;
@@ -189,8 +186,7 @@ header{
     width: 120px;
     height: 1px;
     background: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 43%;
+    margin: 30px auto;
 }
 .catalog{
     width: 138px;
@@ -209,16 +205,15 @@ header{
 }
 .midle-section{
     display: flex;
+    height: 730px;
 }
 .photo{
     background: url(../img/Rectangle\ 9.png) no-repeat;
-    width: 880px;
-    height: 600px;
+    flex-basis: 880px;
 }
 .collection-2018-info{
     background: rgba(0, 0, 0, 0.72);
-    width: 1040px;
-    height: 600px;
+    flex-basis: 1040px;
     color: #FFFFFF;
 }
 .collection-2018-name{
@@ -234,8 +229,7 @@ header{
     width: 120px;
     height: 1px;
     background: #FFFFFF;
-    margin-top: 40px;
-    margin-left: 45%;
+    margin: 40px auto;
 }
 .collection-2018-text{
     width: 45%;
@@ -262,6 +256,7 @@ header{
 }
 .collection-2018{
     display: flex;
+    height: 600px;
 }
 .new-goods{
     background: black;
@@ -280,8 +275,7 @@ header{
     width: 120px;
     height: 1px;
     background: #FFFFFF;
-    margin-top: 40px;
-    margin-left: 45%;
+    margin: 40px auto;
 }
 .first-clocks{
     display: flex;
