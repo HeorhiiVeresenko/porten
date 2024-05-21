@@ -1,0 +1,9 @@
+@media screen and (width: 1040px){
+    .first-clocks .clock:nth-of-type(2n+1) {
+        clear: left;
+    }
+    .new-goods{
+        width: 100%;
+        background: black;
+    }
+}
